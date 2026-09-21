@@ -2,7 +2,7 @@
 
 > Visual prompt engineering for everyone.
 
-A free, open-source tool for building better AI prompts through a visual interface.
+A free, visual tool for building better AI prompts.
 
 <p align="center">
   <a href="https://xau-designer.github.io/prompt_studio_pro/">
@@ -14,35 +14,44 @@ A free, open-source tool for building better AI prompts through a visual interfa
   </a>
 </p>
 
-## 🚧 Status
+##  Status
 
 **Early Development**
 
 Prompt Studio Pro is still under active development and may contain bugs, incomplete features, and breaking changes.
 
-## ✨ Features
+##  Features
 
-- Visual prompt builder
-- Image creation & editing
-- English / Persian
-- RTL / LTR
-- LocalStorage
-- Fully client-side
-- Free & ad-free
-- Open source
-- Telegram Mini App
+* Visual prompt builder
+* Image creation & editing
+* English / Persian
+* RTL / LTR
+* LocalStorage
+* Fully client-side
+* Free & ad-free
+* Telegram Mini App
 
-## 🛠️ Built With
+##  Built With
 
 `HTML` · `CSS` · `Vanilla JavaScript`
 
-## 🤝 Help Build It
+##  Help Build It
 
 Have an idea, found a bug, or want to improve something?
 
-**Contributions, feedback, and ideas are welcome.**  
+**Contributions, feedback, and ideas are welcome.**
 Help make Prompt Studio Pro better for everyone.
 
 ---
 
 **Built in public. Improved by the community.**
+
+##  License
+
+Prompt Studio Pro is available for **personal, educational, and other non-commercial use**.
+
+Attribution to **XAU DESIGNER / Prompt Studio Pro** is required.
+
+Commercial use requires prior written permission.
+
+See [LICENSE](LICENSE) for the full terms.
