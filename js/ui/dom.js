@@ -1,14 +1,3 @@
-/**
- * dom.js
- * -----------------------------------------------------------------------
- * A handful of tiny helpers so screen modules don't repeat
- * document.createElement boilerplate. Deliberately not a virtual DOM —
- * the app is small enough that direct DOM manipulation stays readable.
- * -----------------------------------------------------------------------
- */
-
-/** Create an element. `attrs` may include `className`, `html`, `text`,
- *  `on: { click: fn }`, and any other attribute (set via setAttribute). */
 export function el(tag, attrs = {}, children = []) {
   const node = document.createElement(tag);
   const { className, html, text, on, dataset, ...rest } = attrs;

@@ -1,0 +1,54 @@
+@media (max-width: 375px) {
+    .brand-name {
+        display: none;
+    }
+
+    .saved-item-icon.accent-image {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .option-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .wizard {
+        grid-template-columns: 1fr;
+    }
+
+    .step-rail {
+        display: none !important;
+    }
+
+    .progress-bar-mobile {
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    .progress-bar-track {
+        height: 6px;
+        border-radius: var(--radius-pill);
+        background: var(--surface-2);
+        overflow: hidden;
+    }
+
+    .progress-bar-fill {
+        height: 100%;
+        background: var(--gradient-brand);
+        border-radius: var(--radius-pill);
+        transition: width var(--dur-base) var(--ease);
+    }
+
+    .progress-bar-label {
+        font-size: 12px;
+        color: var(--text-faint);
+        margin-top: 6px;
+    }
+
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+}
